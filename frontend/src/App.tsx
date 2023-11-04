@@ -48,6 +48,8 @@ export default function App() {
       email,
     });
     setCustomers((prevState) => [...prevState, response.data]);
+    setName("");
+    setEmail("");
   }
 
   return (
